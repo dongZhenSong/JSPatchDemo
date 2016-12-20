@@ -1,0 +1,6 @@
+platform :ios, ‘8.2’
+
+target :PineTree do
+pod 'JSPatchPlatform'
+
+end

@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1855788A1E08CA62008FC57F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 185578891E08CA62008FC57F /* main.m */; };
+		1855788D1E08CA62008FC57F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1855788C1E08CA62008FC57F /* AppDelegate.m */; };
+		185578901E08CA62008FC57F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1855788F1E08CA62008FC57F /* ViewController.m */; };
+		185578931E08CA62008FC57F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185578911E08CA62008FC57F /* Main.storyboard */; };
+		185578961E08CA62008FC57F /* PineTree.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 185578941E08CA62008FC57F /* PineTree.xcdatamodeld */; };
+		185578981E08CA62008FC57F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185578971E08CA62008FC57F /* Assets.xcassets */; };
+		1855789B1E08CA62008FC57F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185578991E08CA62008FC57F /* LaunchScreen.storyboard */; };
+		185578A61E08CA63008FC57F /* PineTreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 185578A51E08CA63008FC57F /* PineTreeTests.m */; };
+		185578B11E08CA63008FC57F /* PineTreeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 185578B01E08CA63008FC57F /* PineTreeUITests.m */; };
+		185578C11E08E268008FC57F /* JPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185578C01E08E268008FC57F /* JPViewController.m */; };
+		1E60A5CBC5A7FDC04060BE50 /* libPods-PineTree.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93F2E9BE2A5C045F588DE1B4 /* libPods-PineTree.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		185578A21E08CA63008FC57F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1855787D1E08CA62008FC57F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 185578841E08CA62008FC57F;
+			remoteInfo = PineTree;
+		};
+		185578AD1E08CA63008FC57F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1855787D1E08CA62008FC57F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 185578841E08CA62008FC57F;
+			remoteInfo = PineTree;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		185578851E08CA62008FC57F /* PineTree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PineTree.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		185578891E08CA62008FC57F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1855788B1E08CA62008FC57F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1855788C1E08CA62008FC57F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1855788E1E08CA62008FC57F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1855788F1E08CA62008FC57F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		185578921E08CA62008FC57F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		185578951E08CA62008FC57F /* PineTree.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PineTree.xcdatamodel; sourceTree = "<group>"; };
+		185578971E08CA62008FC57F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1855789A1E08CA62008FC57F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1855789C1E08CA62008FC57F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		185578A11E08CA63008FC57F /* PineTreeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PineTreeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		185578A51E08CA63008FC57F /* PineTreeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PineTreeTests.m; sourceTree = "<group>"; };
+		185578A71E08CA63008FC57F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		185578AC1E08CA63008FC57F /* PineTreeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PineTreeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		185578B01E08CA63008FC57F /* PineTreeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PineTreeUITests.m; sourceTree = "<group>"; };
+		185578B21E08CA63008FC57F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		185578BE1E08E22E008FC57F /* PineTree.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PineTree.entitlements; sourceTree = "<group>"; };
+		185578BF1E08E268008FC57F /* JPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPViewController.h; sourceTree = "<group>"; };
+		185578C01E08E268008FC57F /* JPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPViewController.m; sourceTree = "<group>"; };
+		25AAF90ABB367D04E49CB3C1 /* Pods-PineTree.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PineTree.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PineTree/Pods-PineTree.debug.xcconfig"; sourceTree = "<group>"; };
+		93F2E9BE2A5C045F588DE1B4 /* libPods-PineTree.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PineTree.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B04BA3DEECB5396568832FF7 /* Pods-PineTree.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PineTree.release.xcconfig"; path = "Pods/Target Support Files/Pods-PineTree/Pods-PineTree.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		185578821E08CA62008FC57F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E60A5CBC5A7FDC04060BE50 /* libPods-PineTree.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1855789E1E08CA63008FC57F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185578A91E08CA63008FC57F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CB146A7B1E92CAC291181FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93F2E9BE2A5C045F588DE1B4 /* libPods-PineTree.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1855787C1E08CA62008FC57F = {
+			isa = PBXGroup;
+			children = (
+				185578871E08CA62008FC57F /* PineTree */,
+				185578A41E08CA63008FC57F /* PineTreeTests */,
+				185578AF1E08CA63008FC57F /* PineTreeUITests */,
+				185578861E08CA62008FC57F /* Products */,
+				919053A2C0574D34F702247C /* Pods */,
+				0CB146A7B1E92CAC291181FD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		185578861E08CA62008FC57F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				185578851E08CA62008FC57F /* PineTree.app */,
+				185578A11E08CA63008FC57F /* PineTreeTests.xctest */,
+				185578AC1E08CA63008FC57F /* PineTreeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		185578871E08CA62008FC57F /* PineTree */ = {
+			isa = PBXGroup;
+			children = (
+				185578BE1E08E22E008FC57F /* PineTree.entitlements */,
+				1855788B1E08CA62008FC57F /* AppDelegate.h */,
+				1855788C1E08CA62008FC57F /* AppDelegate.m */,
+				1855788E1E08CA62008FC57F /* ViewController.h */,
+				1855788F1E08CA62008FC57F /* ViewController.m */,
+				185578BF1E08E268008FC57F /* JPViewController.h */,
+				185578C01E08E268008FC57F /* JPViewController.m */,
+				185578911E08CA62008FC57F /* Main.storyboard */,
+				185578971E08CA62008FC57F /* Assets.xcassets */,
+				185578991E08CA62008FC57F /* LaunchScreen.storyboard */,
+				1855789C1E08CA62008FC57F /* Info.plist */,
+				185578941E08CA62008FC57F /* PineTree.xcdatamodeld */,
+				185578881E08CA62008FC57F /* Supporting Files */,
+			);
+			path = PineTree;
+			sourceTree = "<group>";
+		};
+		185578881E08CA62008FC57F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				185578891E08CA62008FC57F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		185578A41E08CA63008FC57F /* PineTreeTests */ = {
+			isa = PBXGroup;
+			children = (
+				185578A51E08CA63008FC57F /* PineTreeTests.m */,
+				185578A71E08CA63008FC57F /* Info.plist */,
+			);
+			path = PineTreeTests;
+			sourceTree = "<group>";
+		};
+		185578AF1E08CA63008FC57F /* PineTreeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				185578B01E08CA63008FC57F /* PineTreeUITests.m */,
+				185578B21E08CA63008FC57F /* Info.plist */,
+			);
+			path = PineTreeUITests;
+			sourceTree = "<group>";
+		};
+		919053A2C0574D34F702247C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25AAF90ABB367D04E49CB3C1 /* Pods-PineTree.debug.xcconfig */,
+				B04BA3DEECB5396568832FF7 /* Pods-PineTree.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		185578841E08CA62008FC57F /* PineTree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 185578B51E08CA63008FC57F /* Build configuration list for PBXNativeTarget "PineTree" */;
+			buildPhases = (
+				A3A8489E332CED9BFF50984B /* [CP] Check Pods Manifest.lock */,
+				185578811E08CA62008FC57F /* Sources */,
+				185578821E08CA62008FC57F /* Frameworks */,
+				185578831E08CA62008FC57F /* Resources */,
+				7381167419B90AD1C9193C38 /* [CP] Embed Pods Frameworks */,
+				2E8F06F80E8A246A0412B7A9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PineTree;
+			productName = PineTree;
+			productReference = 185578851E08CA62008FC57F /* PineTree.app */;
+			productType = "com.apple.product-type.application";
+		};
+		185578A01E08CA63008FC57F /* PineTreeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 185578B81E08CA63008FC57F /* Build configuration list for PBXNativeTarget "PineTreeTests" */;
+			buildPhases = (
+				1855789D1E08CA63008FC57F /* Sources */,
+				1855789E1E08CA63008FC57F /* Frameworks */,
+				1855789F1E08CA63008FC57F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				185578A31E08CA63008FC57F /* PBXTargetDependency */,
+			);
+			name = PineTreeTests;
+			productName = PineTreeTests;
+			productReference = 185578A11E08CA63008FC57F /* PineTreeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		185578AB1E08CA63008FC57F /* PineTreeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 185578BB1E08CA63008FC57F /* Build configuration list for PBXNativeTarget "PineTreeUITests" */;
+			buildPhases = (
+				185578A81E08CA63008FC57F /* Sources */,
+				185578A91E08CA63008FC57F /* Frameworks */,
+				185578AA1E08CA63008FC57F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				185578AE1E08CA63008FC57F /* PBXTargetDependency */,
+			);
+			name = PineTreeUITests;
+			productName = PineTreeUITests;
+			productReference = 185578AC1E08CA63008FC57F /* PineTreeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1855787D1E08CA62008FC57F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = song;
+				TargetAttributes = {
+					185578841E08CA62008FC57F = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 92JS2V4Q2A;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					185578A01E08CA63008FC57F = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 92JS2V4Q2A;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 185578841E08CA62008FC57F;
+					};
+					185578AB1E08CA63008FC57F = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 92JS2V4Q2A;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 185578841E08CA62008FC57F;
+					};
+				};
+			};
+			buildConfigurationList = 185578801E08CA62008FC57F /* Build configuration list for PBXProject "PineTree" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1855787C1E08CA62008FC57F;
+			productRefGroup = 185578861E08CA62008FC57F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				185578841E08CA62008FC57F /* PineTree */,
+				185578A01E08CA63008FC57F /* PineTreeTests */,
+				185578AB1E08CA63008FC57F /* PineTreeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		185578831E08CA62008FC57F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1855789B1E08CA62008FC57F /* LaunchScreen.storyboard in Resources */,
+				185578981E08CA62008FC57F /* Assets.xcassets in Resources */,
+				185578931E08CA62008FC57F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1855789F1E08CA63008FC57F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185578AA1E08CA63008FC57F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E8F06F80E8A246A0412B7A9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PineTree/Pods-PineTree-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7381167419B90AD1C9193C38 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PineTree/Pods-PineTree-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3A8489E332CED9BFF50984B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		185578811E08CA62008FC57F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185578901E08CA62008FC57F /* ViewController.m in Sources */,
+				185578C11E08E268008FC57F /* JPViewController.m in Sources */,
+				185578961E08CA62008FC57F /* PineTree.xcdatamodeld in Sources */,
+				1855788D1E08CA62008FC57F /* AppDelegate.m in Sources */,
+				1855788A1E08CA62008FC57F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1855789D1E08CA63008FC57F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185578A61E08CA63008FC57F /* PineTreeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185578A81E08CA63008FC57F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185578B11E08CA63008FC57F /* PineTreeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		185578A31E08CA63008FC57F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 185578841E08CA62008FC57F /* PineTree */;
+			targetProxy = 185578A21E08CA63008FC57F /* PBXContainerItemProxy */;
+		};
+		185578AE1E08CA63008FC57F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 185578841E08CA62008FC57F /* PineTree */;
+			targetProxy = 185578AD1E08CA63008FC57F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		185578911E08CA62008FC57F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				185578921E08CA62008FC57F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		185578991E08CA62008FC57F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1855789A1E08CA62008FC57F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		185578B31E08CA63008FC57F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		185578B41E08CA63008FC57F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		185578B61E08CA63008FC57F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25AAF90ABB367D04E49CB3C1 /* Pods-PineTree.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PineTree/PineTree.entitlements;
+				DEVELOPMENT_TEAM = 92JS2V4Q2A;
+				INFOPLIST_FILE = PineTree/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = songPersonal.PineTree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		185578B71E08CA63008FC57F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B04BA3DEECB5396568832FF7 /* Pods-PineTree.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PineTree/PineTree.entitlements;
+				DEVELOPMENT_TEAM = 92JS2V4Q2A;
+				INFOPLIST_FILE = PineTree/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = songPersonal.PineTree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		185578B91E08CA63008FC57F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 92JS2V4Q2A;
+				INFOPLIST_FILE = PineTreeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = songPersonal.PineTreeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PineTree.app/PineTree";
+			};
+			name = Debug;
+		};
+		185578BA1E08CA63008FC57F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 92JS2V4Q2A;
+				INFOPLIST_FILE = PineTreeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = songPersonal.PineTreeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PineTree.app/PineTree";
+			};
+			name = Release;
+		};
+		185578BC1E08CA63008FC57F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 92JS2V4Q2A;
+				INFOPLIST_FILE = PineTreeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = songPersonal.PineTreeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PineTree;
+			};
+			name = Debug;
+		};
+		185578BD1E08CA63008FC57F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 92JS2V4Q2A;
+				INFOPLIST_FILE = PineTreeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = songPersonal.PineTreeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PineTree;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		185578801E08CA62008FC57F /* Build configuration list for PBXProject "PineTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185578B31E08CA63008FC57F /* Debug */,
+				185578B41E08CA63008FC57F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		185578B51E08CA63008FC57F /* Build configuration list for PBXNativeTarget "PineTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185578B61E08CA63008FC57F /* Debug */,
+				185578B71E08CA63008FC57F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		185578B81E08CA63008FC57F /* Build configuration list for PBXNativeTarget "PineTreeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185578B91E08CA63008FC57F /* Debug */,
+				185578BA1E08CA63008FC57F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		185578BB1E08CA63008FC57F /* Build configuration list for PBXNativeTarget "PineTreeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185578BC1E08CA63008FC57F /* Debug */,
+				185578BD1E08CA63008FC57F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		185578941E08CA62008FC57F /* PineTree.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				185578951E08CA62008FC57F /* PineTree.xcdatamodel */,
+			);
+			currentVersion = 185578951E08CA62008FC57F /* PineTree.xcdatamodel */;
+			path = PineTree.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1855787D1E08CA62008FC57F /* Project object */;
+}
